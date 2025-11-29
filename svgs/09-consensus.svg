@@ -1,0 +1,7 @@
+<svg width="500" height="150" viewBox="0 0 500 150" xmlns="http://www.w3.org/2000/svg">
+	<rect x="50" y="50" width="400" height="50" fill="#e2e8f0" rx="25" />
+	<rect x="50" y="50" width="388" height="50" fill="#10b981" rx="25" /> <!-- 97% -->
+	<text x="250" y="82" text-anchor="middle" fill="white" font-weight="bold" font-size="18">97%
+		Scientific Agreement</text>
+</svg>
+

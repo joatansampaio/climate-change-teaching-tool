@@ -1,0 +1,19 @@
+<svg width="400" height="300" viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+	<!-- Stylized MN Outline -->
+	<path d="M 100 50 L 300 50 L 320 100 L 300 250 L 100 250 L 80 150 Z" fill="#f1f5f9" stroke="#334155"
+		stroke-width="2" />
+
+	<!-- Heat Gradient Overlay -->
+	<defs>
+		<linearGradient id="heatMap" x1="0%" y1="100%" x2="0%" y2="0%">
+			<stop offset="0%" style="stop-color:#fef3c7;stop-opacity:0.5" />
+			<stop offset="100%" style="stop-color:#ef4444;stop-opacity:0.8" />
+		</linearGradient>
+	</defs>
+	<path d="M 100 50 L 300 50 L 320 100 L 300 250 L 100 250 L 80 150 Z" fill="url(#heatMap)" />
+
+	<text x="200" y="150" text-anchor="middle" font-weight="bold" fill="#7f1d1d"
+		font-size="24">+3°F</text>
+	<text x="200" y="175" text-anchor="middle" fill="#7f1d1d">Winter Warming</text>
+</svg>
+

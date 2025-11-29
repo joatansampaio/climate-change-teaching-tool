@@ -1,0 +1,34 @@
+<svg width="700" height="300" viewBox="0 0 700 300" xmlns="http://www.w3.org/2000/svg">
+	<!-- Axes -->
+	<line x1="50" y1="250" x2="650" y2="250" stroke="#334155" stroke-width="2" />
+	<line x1="50" y1="250" x2="50" y2="50" stroke="#334155" stroke-width="2" />
+
+	<!-- Labels -->
+	<text x="350" y="285" text-anchor="middle" fill="#64748b">Time (Thousands of Years Ago)</text>
+	<text x="20" y="150" text-anchor="middle" transform="rotate(-90 20 150)" fill="#64748b">CO₂
+		(ppm)</text>
+
+	<!-- Grid lines -->
+	<line x1="50" y1="200" x2="650" y2="200" stroke="#e2e8f0" stroke-dasharray="4" /> <!-- 200ppm -->
+	<line x1="50" y1="150" x2="650" y2="150" stroke="#e2e8f0" stroke-dasharray="4" /> <!-- 300ppm -->
+	<line x1="50" y1="100" x2="650" y2="100" stroke="#e2e8f0" stroke-dasharray="4" /> <!-- 400ppm -->
+
+	<text x="40" y="205" text-anchor="end" font-size="10" fill="#94a3b8">200</text>
+	<text x="40" y="155" text-anchor="end" font-size="10" fill="#94a3b8">300</text>
+	<text x="40" y="105" text-anchor="end" font-size="10" fill="#94a3b8">400</text>
+
+	<!-- Data Line (Simulated Ice Core Data) -->
+	<path
+		d="M 50 200 Q 100 220 150 190 T 250 210 T 350 180 T 450 200 T 550 180 L 600 180 L 620 150 L 640 90"
+		fill="none" stroke="#0e7490" stroke-width="2" />
+
+	<!-- Highlight Industrial Rev -->
+	<rect x="600" y="50" width="50" height="200" fill="#fef3c7" opacity="0.5" />
+	<line x1="600" y1="250" x2="600" y2="50" stroke="#f59e0b" stroke-dasharray="4" />
+
+	<text x="580" y="40" text-anchor="end" fill="#f59e0b" font-weight="bold" font-size="12">Industrial
+		Revolution</text>
+	<circle cx="640" cy="90" r="4" fill="#ef4444" />
+	<text x="650" y="90" fill="#ef4444" font-weight="bold">Today (420+)</text>
+</svg>
+

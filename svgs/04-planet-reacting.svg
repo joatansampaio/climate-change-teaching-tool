@@ -1,0 +1,49 @@
+<svg width="700" height="250" viewBox="0 0 700 250" xmlns="http://www.w3.org/2000/svg">
+	<defs>
+		<marker id="arrowRed" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+			<path d="M0,0 L0,6 L9,3 z" fill="#ef4444" />
+		</marker>
+	</defs>
+	<!-- Icon 1: Glaciers -->
+	<g transform="translate(50, 25)">
+		<circle cx="80" cy="80" r="70" fill="#e0f2fe" />
+		<path d="M 40 100 L 70 50 L 100 90 L 130 40 L 150 110 L 10 110 Z" fill="#fff" stroke="#0e7490"
+			stroke-width="2" />
+		<path d="M 10 110 L 150 110 L 150 130 L 10 130 Z" fill="#3b82f6" />
+		<text x="80" y="180" text-anchor="middle" font-weight="bold" fill="#0f172a">Glaciers
+			Shrinking</text>
+		<text x="80" y="200" text-anchor="middle" font-size="12" fill="#64748b">Down 90%
+			worldwide</text>
+	</g>
+
+	<!-- Icon 2: Sea Level -->
+	<g transform="translate(270, 25)">
+		<circle cx="80" cy="80" r="70" fill="#e0f2fe" />
+		<rect x="40" y="80" width="80" height="50" fill="#3b82f6" opacity="0.5" />
+		<rect x="40" y="60" width="80" height="70" fill="#3b82f6" opacity="0.5">
+			<animate attributeName="y" values="80;60;80" dur="4s" repeatCount="indefinite" />
+			<animate attributeName="height" values="50;70;50" dur="4s" repeatCount="indefinite" />
+		</rect>
+		<line x1="130" y1="80" x2="130" y2="60" stroke="#ef4444" stroke-width="2"
+			marker-end="url(#arrowRed)" />
+		<text x="80" y="180" text-anchor="middle" font-weight="bold" fill="#0f172a">Sea Levels
+			Rising</text>
+		<text x="80" y="200" text-anchor="middle" font-size="12" fill="#64748b">+8 inches since
+			1880</text>
+	</g>
+
+	<!-- Icon 3: Ocean Heat -->
+	<g transform="translate(490, 25)">
+		<circle cx="80" cy="80" r="70" fill="#fee2e2" />
+		<path d="M 40 100 Q 80 80 120 100 T 200 100" fill="none" stroke="#ef4444" stroke-width="3" />
+		<path d="M 40 80 Q 80 60 120 80 T 200 80" fill="none" stroke="#ef4444" stroke-width="3"
+			opacity="0.6" />
+		<path d="M 40 60 Q 80 40 120 60 T 200 60" fill="none" stroke="#ef4444" stroke-width="3"
+			opacity="0.3" />
+		<text x="80" y="180" text-anchor="middle" font-weight="bold" fill="#0f172a">Oceans
+			Warming</text>
+		<text x="80" y="200" text-anchor="middle" font-size="12" fill="#64748b">Absorbing 90% of
+			heat</text>
+	</g>
+</svg>
+
